@@ -14,7 +14,7 @@
 }
 
 :root {
-  --fundo-principal: #f5f5f5;
+  --fundo-principal: #e4e4e4;
   --texto: #222222;
   --texto-inverso:#ffffff;
   --destaque: #0077ff;
@@ -109,4 +109,36 @@ div#social a {
 
 div#social a:hover {
   color: var(--destaque-inverso);
+}
+
+section#detalhes {
+  grid-column: 2;
+}
+
+article {
+  background-color: var(--fundo-card);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+article h2 {
+  color: var(--destaque);
+  margin-bottom: 10px;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  aspect-ratio: 16/9;
+  
+}
+
+.video-container iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
 }
