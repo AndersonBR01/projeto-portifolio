@@ -145,7 +145,7 @@ article h2 {
 
 #skill-contanier {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr ;
   gap: 30px;
 }
 
@@ -179,7 +179,7 @@ article h2 {
   border-radius: 4px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   #skill-contanier {
     grid-template-columns: 1fr 1fr;
   }
