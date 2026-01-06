@@ -265,7 +265,23 @@ footer a {
 footer a:hover {
   color: var(--destaque-inverso);
 }
-@media screen and (min-width: 768px) { 
+@media screen and (min-width: 800px) { 
+  main {
+    grid-template-columns: auto 300px 1fr auto;
+  }
+
+  section#ficha {
+    grid-column: 2 / 3;
+    height: fit-content;
+    position: sticky;
+    top: 70px;
+    bottom: 30px;
+  }
+
+  section#detalhes {
+    grid-column: 3 / 4;
+  }
+
   #skill-contanier {
     grid-template-columns: 1fr 1fr;
   }
